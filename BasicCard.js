@@ -42,9 +42,9 @@ function BasicCard(front, back){
             }
             //re-start the app's loop
             startApp();
-        })
+        });
     };
-};
+}
 
 
 // exporting our BasicCard constructor

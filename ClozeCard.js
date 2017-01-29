@@ -56,12 +56,12 @@ function ClozeCard(text, cloze){
                 console.log("You are correct!");
             } else {
                 console.log("You are wrong. The answer was: " + answer);
-            };
+            }
             // after user gives the response this statement is logged for user to check the correct answer
             console.log("The whole phrase was: " + phrase);
             //re-start the app's loop
             startApp();
-        })
+        });
     };
 }
 
